@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: #3D3B40;
     color: #FFFFFF; /* cor da letra */
@@ -5,5 +10,54 @@ body {
 
 div {
     background: #525CEB;
-    
+    margin: 20px;
+    padding: 50px;
+    border: solid 3px #000000;
+    border-radius: 20px;
+}
+
+.caixa-menor {
+    background: #F8EDFF;
+    width: 50%;
+    color: #000000;
+}
+
+.conteiner {
+    background: #BFCFE7;
+    width: 1120px;
+    min-height: 400px;
+    padding: 0px;
+    overflow: auto;
+    margin: 20px auto;
+}
+
+.esconder {
+    display: none;
+}
+
+.bloco {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    color: #000000;
+    float: left; /* forma um cubinho */
+    margin: 0px;
+}
+
+.bloco1 {
+    width: 50%;
+    background: #F8EDFF;
+}
+
+.bloco2 {
+    width: 50%;
+    background: #F8F4EC;
+}
+
+.bloco3 {
+    background: #FFF6E0;
+}
+
+.bloco4 {
+    background: #DAFFFB;
 }
